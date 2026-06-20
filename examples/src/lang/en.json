@@ -1,0 +1,21 @@
+{
+    "greeting": "greeting",
+    "deprecated": {
+        "flag": true
+    },
+    "settings": "Settings",
+    "user": {
+        "name": "Username",
+        "profile": {
+            "edit": "Edit Profile"
+        }
+    },
+    "common": {
+        "cancel": "",
+        "confirm": "Confirm"
+    },
+    "app": {
+        "welcome": "Welcome, {user}!",
+        "title": "App Title"
+    }
+}

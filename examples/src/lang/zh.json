@@ -1,0 +1,18 @@
+{
+  "settings": "设置",
+  "user": {
+    "profile": {
+      "logout": "退出登录",
+      "edit": "编辑资料"
+    },
+    "name": "用户名"
+  },
+  "common": {
+    "cancel": "取消",
+    "confirm": "确认"
+  },
+  "app": {
+    "welcome": "欢迎，{name}！",
+    "title": "应用标题"
+  }
+}

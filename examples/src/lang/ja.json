@@ -1,0 +1,16 @@
+{
+  "app": {
+    "title": "アプリタイトル",
+    "welcome": "ようこそ、{name}さん！"
+  },
+  "common": {
+    "cancel": "キャンセル",
+    "confirm": "確認"
+  },
+  "user": {
+    "name": "ユーザー名",
+    "profile": {
+      "edit": "プロフィールを編集"
+    }
+  }
+}

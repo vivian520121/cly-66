@@ -1,0 +1,36 @@
+{
+  "name": "i18n-cli",
+  "version": "1.0.0",
+  "description": "纯本地前端国际化文本处理CLI - 离线解析项目JSON语言包",
+  "type": "module",
+  "main": "src/index.js",
+  "bin": {
+    "i18n-cli": "bin/i18n-cli.js"
+  },
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "start": "node bin/i18n-cli.js",
+    "scan": "node bin/i18n-cli.js scan",
+    "diff": "node bin/i18n-cli.js diff",
+    "test": "node bin/i18n-cli.js diff --dir examples --no-interactive --no-progress --dry-run"
+  },
+  "keywords": [
+    "i18n",
+    "cli",
+    "translation",
+    "json",
+    "localization",
+    "offline"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "cli-progress": "^3.12.0",
+    "commander": "^11.1.0",
+    "csv-stringify": "^6.5.0",
+    "inquirer": "^9.2.12"
+  }
+}
